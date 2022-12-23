@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-month",
-    "slug": "react-native-month",
+    "name": "react-native-month-selected-date",
+    "slug": "react-native-month-selected-date",
     "privacy": "public",
     "version": "1.0.0",
     "orientation": "portrait",

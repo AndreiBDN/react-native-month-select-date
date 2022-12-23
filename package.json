@@ -1,7 +1,7 @@
 {
-  "name": "react-native-month",
-  "version": "1.5.2",
-  "description": "React Native Month",
+  "name": "react-native-month-selected-date",
+  "version": "1.0.0",
+  "description": "React Native Month with Selected Date",
   "main": "lib/commonjs/index.js",
   "react-native": "src/index.tsx",
   "source": "src/index.tsx",
@@ -21,18 +21,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maggialejandro/react-native-month.git"
+    "url": "https://github.com/AndreiBDN/react-native-month-select-date"
   },
   "keywords": [
     "react-native",
     "month"
   ],
-  "author": "Alejandro Maggi",
+  "author": "Andrei Balashov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maggialejandro/react-native-month/issues"
+    "url": "https://github.com/AndreiBDN/react-native-month-select-date/issues"
   },
-  "homepage": "https://github.com/maggialejandro/react-native-month#readme",
+  "homepage": "https://github.com/AndreiBDN/react-native-month-select-date#readme",
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
@@ -110,5 +110,8 @@
     "files": [
       "src/"
     ]
+  },
+  "dependencies": {
+    "react-native-month-selected-date": "^1.0.0"
   }
 }

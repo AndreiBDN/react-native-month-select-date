@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react';
-import { View, StatusBar, SafeAreaView } from 'react-native';
-import { Month, ThemeType, MarkedDays } from 'react-native-month';
+import { SafeAreaView, StatusBar, View } from 'react-native';
+import { MarkedDays, Month, ThemeType } from 'react-native-month-selected-date';
 
 const BLUE = '#6d95da';
 
@@ -144,6 +144,7 @@ const App = () => {
           startDate={startDate}
           endDate={endDate}
           disabledDays={DISABLED_DAYS}
+          selectedDate={new Date()}
         />
       </View>
     </SafeAreaView>

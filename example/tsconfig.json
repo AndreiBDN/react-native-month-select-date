@@ -6,7 +6,7 @@
       "esnext"
     ],
     "paths": {
-      "react-native-month": [
+      "react-native-month-selected-date": [
         "../src/index"
       ]
     },
