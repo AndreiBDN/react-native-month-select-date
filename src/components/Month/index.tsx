@@ -33,6 +33,7 @@ export default React.memo<MonthProps>((props: MonthProps) => {
     renderDayContent,
     showSixWeeks = false,
     selectedDate,
+    weekendsDaysIndexes,
   } = props;
 
   const DAY_NAMES =
@@ -63,7 +64,13 @@ export default React.memo<MonthProps>((props: MonthProps) => {
 
   return (
     <>
-      {showWeekdays && <WeekDays days={DAY_NAMES} theme={theme} />}
+      {showWeekdays && (
+        <WeekDays
+          weekendsDaysIndexes={weekendsDaysIndexes}
+          days={DAY_NAMES}
+          theme={theme}
+        />
+      )}
       {weeks.map((week: DayType[], index: number) => (
         <View key={String(index)} style={styles.weekContainer}>
           {week.map((day: DayType) => (

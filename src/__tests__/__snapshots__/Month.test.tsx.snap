@@ -25,6 +25,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Sun
       </Text>
@@ -42,6 +47,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Mon
       </Text>
@@ -59,6 +69,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Tue
       </Text>
@@ -76,6 +91,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Wed
       </Text>
@@ -93,6 +113,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Thu
       </Text>
@@ -110,6 +135,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Fri
       </Text>
@@ -127,6 +157,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Sat
       </Text>
@@ -2685,6 +2720,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Mon
       </Text>
@@ -2702,6 +2742,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Tue
       </Text>
@@ -2719,6 +2764,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Wed
       </Text>
@@ -2736,6 +2786,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Thu
       </Text>
@@ -2753,6 +2808,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Fri
       </Text>
@@ -2770,6 +2830,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Sat
       </Text>
@@ -2787,6 +2852,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Sun
       </Text>
@@ -5850,6 +5920,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Mon
       </Text>
@@ -5867,6 +5942,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Tue
       </Text>
@@ -5884,6 +5964,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Wed
       </Text>
@@ -5901,6 +5986,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Thu
       </Text>
@@ -5918,6 +6008,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Fri
       </Text>
@@ -5935,6 +6030,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Sat
       </Text>
@@ -5952,6 +6052,11 @@ Array [
     >
       <Text
         allowFontScaling={false}
+        style={
+          Array [
+            undefined,
+          ]
+        }
       >
         Sun
       </Text>

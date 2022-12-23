@@ -32,7 +32,11 @@ export interface DotTheme {
   dotContainerStyle?: ViewStyle;
 }
 
-export interface ThemeType extends DayTheme, DotTheme {
+export interface WeekendDayNameTheme {
+  weekendNameTextStyle?: TextStyle;
+}
+
+export interface ThemeType extends DayTheme, DotTheme, WeekendDayNameTheme {
   weekColumnsContainerStyle?: ViewStyle;
   weekColumnStyle?: ViewStyle;
   weekColumnTextStyle?: TextStyle;
@@ -150,4 +154,5 @@ export interface MonthProps {
   renderDayContent?: (day: DayType) => ReactElement;
   disabledDays?: { [key: string]: any };
   selectedDate?: Date;
+  weekendsDaysIndexes?: Array<number>;
 }
