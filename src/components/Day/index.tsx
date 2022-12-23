@@ -239,7 +239,7 @@ const Day = React.memo<Props>(
               isWeekend ? dayTheme?.weekendContentStyle : {},
               isActive ? theme.activeDayContentStyle : {},
               isActive ? dayTheme?.activeDayContentStyle : {},
-              isSelected ? dayTheme?.selectedDateContentStyle : {},
+              isSelected ? theme?.selectedDateContentStyle : {},
             ]}
           >
             <Text
@@ -252,7 +252,7 @@ const Day = React.memo<Props>(
                 isToday ? dayTheme?.todayTextStyle : {},
                 isActive ? theme.activeDayTextStyle : {},
                 isActive ? dayTheme?.activeDayTextStyle : {},
-                isSelected ? dayTheme?.selectedDateTextStyle : {},
+                isSelected ? theme?.selectedDateTextStyle : {},
               ]}
             >
               {date.getDate()}
