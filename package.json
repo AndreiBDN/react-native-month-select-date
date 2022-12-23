@@ -1,6 +1,6 @@
 {
   "name": "react-native-month-selected-date",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React Native Month with Selected Date",
   "main": "lib/commonjs/index.js",
   "react-native": "src/index.tsx",
