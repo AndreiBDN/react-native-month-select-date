@@ -222,8 +222,8 @@ const Day = React.memo<Props>(
           isStartDate ? dayTheme?.startDateContainerStyle : {},
           isEndDate ? styles.endDate : {},
           isEndDate ? theme.endDateContainerStyle : {},
-          isEndDate ? dayTheme?.endDateContainerStyle : {},
-          isSelected ? dayTheme?.selectedDateContainerStyle : {},
+          isEndDate ? theme?.endDateContainerStyle : {},
+          isSelected ? theme?.selectedDateContainerStyle : {},
         ]}
         onPress={() => props.onPress(props.item.date)}
       >
@@ -265,6 +265,7 @@ const Day = React.memo<Props>(
   },
   (prevProps, nextProps) => {
     return (
+      prevProps.item.isSelected === nextProps.item.isSelected &&
       prevProps.item.isActive === nextProps.item.isActive &&
       prevProps.item.isVisible === nextProps.item.isVisible &&
       prevProps.item.isStartDate === nextProps.item.isStartDate &&

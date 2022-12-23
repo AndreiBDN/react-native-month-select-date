@@ -145,6 +145,7 @@ export function areEqual(prevProps: MonthProps, nextProps: MonthProps) {
     !changedDate(prevProps.startDate, nextProps.startDate) &&
     !changedDate(prevProps.endDate, nextProps.endDate) &&
     !changedDate(prevProps.minDate, nextProps.minDate) &&
-    !changedDate(prevProps.maxDate, nextProps.maxDate)
+    !changedDate(prevProps.maxDate, nextProps.maxDate) &&
+    prevProps.selectedDate === nextProps.selectedDate
   );
 }
